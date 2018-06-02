@@ -1,4 +1,4 @@
-package com.varvet.barcodereadersample
+package org.a501code.instapay
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,8 @@ import android.widget.Button
 import android.widget.TextView
 import com.google.android.gms.common.api.CommonStatusCodes
 import com.google.android.gms.vision.barcode.Barcode
-import com.varvet.barcodereadersample.barcode.BarcodeCaptureActivity
+import org.a501code.instapay.R
+import org.a501code.instapay.barcode.BarcodeCaptureActivity
 
 class MainActivity : AppCompatActivity() {
 

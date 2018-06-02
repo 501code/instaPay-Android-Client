@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.varvet.barcodereadersample">
+    package="org.a501code.instapay">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivity">
+            android:name="org.a501code.instapay.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -20,7 +20,7 @@
         </activity>
 
         <activity
-            android:name=".barcode.BarcodeCaptureActivity"
+            android:name="org.a501code.instapay.barcode.BarcodeCaptureActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
     </application>
 </manifest>

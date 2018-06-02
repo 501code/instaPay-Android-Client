@@ -16,7 +16,7 @@
  * This file and all BarcodeXXX and CameraXXX files in this project edited by
  * Daniell Algar (included due to copyright reason)
  */
-package com.varvet.barcodereadersample.barcode;
+package org.a501code.instapay.barcode;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -44,9 +44,9 @@ import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 
-import com.varvet.barcodereadersample.R;
-import com.varvet.barcodereadersample.camera.CameraSource;
-import com.varvet.barcodereadersample.camera.CameraSourcePreview;
+import org.a501code.instapay.R;
+import org.a501code.instapay.camera.CameraSource;
+import org.a501code.instapay.camera.CameraSourcePreview;
 
 import java.io.IOException;
 
