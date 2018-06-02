@@ -1,4 +1,4 @@
-package com.varvet.barcodereadersample;
+package org.a501code.instapay;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BarcodeReaderSample</string>
+    <string name="app_name">instaPay</string>
 
     <!-- Strings related to MainActivity-->
     <string name="scan_barcode_button">Scan barcode</string>
@@ -11,4 +11,6 @@
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
 </resources>

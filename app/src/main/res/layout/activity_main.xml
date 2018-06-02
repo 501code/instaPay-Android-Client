@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.varvet.barcodereadersample.org.a501code.instapay.MainActivity">
+    tools:context="org.a501code.instapay.MainActivity"
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/result_textview"
@@ -27,6 +28,24 @@
         android:text="@string/scan_barcode_button"
         android:layout_below="@id/result_textview"
         android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        app:layout_constraintBottom_toTopOf="@id/phone_number"/>
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_phone_number"
+        app:layout_constraintBottom_toTopOf="@id/make_payment"/>
+
+    <Button
+        android:id="@+id/make_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/make_payment"
+        android:layout_below="@id/result_textview"
+        android:background="@color/colorGreen"
         android:textColor="@color/colorWhite"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
